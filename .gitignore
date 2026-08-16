@@ -1,0 +1,26 @@
+# OS junk (anywhere in the tree)
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- watermark-frontend (Next.js) ---
+watermark-frontend/node_modules/
+watermark-frontend/.next/
+watermark-frontend/out/
+watermark-frontend/build/
+watermark-frontend/coverage/
+watermark-frontend/*.tsbuildinfo
+watermark-frontend/next-env.d.ts
+watermark-frontend/.env*
+
+# --- watermark (Spring Boot / Maven) ---
+watermark/target/
+watermark/.mvn/wrapper/maven-wrapper.jar
+watermark/*.log
+watermark/.env
+watermark/.env.local
